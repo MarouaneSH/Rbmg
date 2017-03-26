@@ -1,0 +1,816 @@
+*
+{
+    font-family: Montserrat;
+}
+body
+{
+    overflow-x: hidden;
+}
+.preload
+{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 30000;
+    background: white;
+}
+.preload img
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.head
+{
+   font-family: 'Raleway', sans-serif;
+    position: absolute;
+     font-size: 40px;
+     word-spacing:8px;
+}
+.carousel-caption h3 {
+  display: inline-block;
+  font-size: 70px;
+  font-family: 'Lobster Two';
+  font-weight: bold;
+}
+.carousel-caption p
+{
+    margin-top: 40px;
+    font-size: 20px;
+    z-index: 21
+}
+.carousel-mobile
+{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    font-size: 15px !important;
+}
+.carousel-caption p span
+{
+    color: #B75654;
+    font-weight: bold;
+}
+#head3
+{
+        right: -80px;
+    top: 350px;
+}
+#head1
+{
+       
+    top: 200px;
+    /* line-height: 40px; */
+   
+    left: -180px;
+}
+.chiffre-cle
+{
+    background: url('../img/slider2.png') no-repeat center center fixed ;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+#head2
+{
+        top: 280px;
+    left: 35%;
+}
+.background-shadow
+{
+    background: rgba(0, 0, 0, 0.42);;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.navbar{
+    position: fixed;
+}
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+        z-index: 10000;
+}
+.navbar-header
+{
+    width: 30%;
+        margin: 15px 0;
+}
+.navbar-nav
+{
+        width: 70%;
+    margin: 30px 0;
+}
+.navbar-inverse {
+    background-color: rgba(255, 255, 255, 0.78);
+    border-color: #080808;
+    position: fixed;
+        z-index: 10000;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+
+}
+.carousel-caption
+{
+    top: 25%;
+}
+.navbar-inverse .navbar-nav>li>a 
+{
+    color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover
+{
+    color: black;
+       border-bottom: solid #B75654;
+}
+.active-nav{
+    border-bottom: solid #B75654;
+}
+.navbar-header
+{
+    margin: 0;
+}
+.navbar
+{
+    height: 120px;
+}
+.navbar-nav .nav{
+    margin-right: 15px;
+}
+.carousel-caption h4
+{
+    font-size: 28px;
+}
+/* CHIFRE CLE*/
+.chiffre-cle, .aboutus ,.offre-tarifs
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.chiffre-cle
+{
+    height: auto;
+}
+.chiffre-cle .container
+{
+  
+ 
+    width: 90%;
+    margin: 20px auto;
+    left: 0;
+    right: 0;
+    padding-bottom: 30px;
+
+}
+.chiffre-cle img
+{
+        width: 100%;
+    height: 100%;
+}
+.backround-white
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    
+   background: rgba(214, 210, 210, 0.35)
+}
+.circle
+{
+        width: 150px;
+    height: 150px;
+    position: relative;
+    text-align: center;
+    border: solid white 1px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.chiffre-header
+{
+       width: 100%;
+    background: white;
+    /* height: 500px; */
+    position: relative;
+    top: 0;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.chiffre-header h3
+{
+    border-top: solid 1px #B75654;
+        
+    width: 250px;
+    padding: 0;
+    margin: 0;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+.circle h1
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 32%;
+    bottom: 0;
+    margin: auto;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.chiffre-desc 
+{
+        width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    background: #595959;
+    color: white;
+    margin-top: 10px;
+    padding: 8px;
+}
+
+.temoignage
+{
+    border: solid 1px;
+    padding: 10px;
+    bottom: top;
+    position: relative;
+    margin-top: 15%;
+        min-height: 180px;
+
+}
+.temoignage h5
+{
+        position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+.temoignage p
+{
+        font-weight: 500;
+    font-size: 20px;
+}
+.temoignage .fa
+{
+    font-size: 50px;
+    left: -20px;
+    top: -30px;
+    position: absolute;
+}
+
+/*ABOUT US*/
+.aboutus
+{
+    background: url('../img/background.png') no-repeat ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top;
+  /*background: #C7CACB;*/
+    min-height: 560px;
+    height: 100vh;
+    padding-top: 5%;
+
+}
+.aboutus-desc
+{
+    margin-top: 20px;
+    color: white;
+    font-family: Raleway;
+}
+.aboutus-desc p
+{
+    line-height: 28px;
+    font-size: 19px;
+    font-family: Raleway;
+}
+.aboutus-desc h4
+{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.aboutus-desc span
+{
+    color: #B75654;
+}
+
+/*OFFRES TARIFS*/
+.offre-tarifs
+{
+    background: #C7CACB;
+        margin-top: -20px;
+       min-height: 600px;
+    height: 100vh;
+}
+.offre-tarifs h3
+{
+        text-align: center;
+}
+hr
+{
+        width: 250px;
+        border-color: #B75654;
+}
+.offre-tarifs .container
+{
+    top: 30%;
+}
+.tarifs-title
+{
+   
+    margin-bottom: 60px;
+}
+.disable-img
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(255, 252, 252, 0.98);
+    opacity: 0;
+    cursor: pointer;
+   
+}
+.img-service
+{
+    height: 150px;
+}
+.img-service img
+{
+    margin: 0 auto;
+}
+.offre-example img
+{
+    width: 50px;
+}
+.offre-example .col-md-15
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.offre-example p
+{
+    font-size: 12px;
+}
+.offre-example p
+{
+    margin-top: 8px;
+}
+.offre-example
+{
+    margin-top: 50px;
+}
+.offre-example .development
+{
+    display: none;
+}
+.espace
+{
+    text-align: center;
+    display: none;
+}
+.offre-example  .espace .col-md-3
+{
+    text-align: center;
+}
+.espace img
+{
+    width: 80px;
+}
+.espace h4
+{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.espace p
+{
+    font-size: 15px;
+}
+.espace h2
+{
+    font-size: 24px;
+
+}
+.espace h2 span
+{
+    font-size: 18px
+}
+
+
+
+/*Courirer*/
+.courrier 
+{
+    display: none;
+}
+.courrier .col-md-4
+{
+    text-align: center;
+}
+
+.courrier img
+{
+    width: 100px;
+}
+.courrier h4
+{
+        font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.courrier p
+{
+        font-size: 16px;
+}
+/*Reunion */
+.reunion
+{
+    display: none;
+}
+
+/*Par ners*/
+.partners{
+    text-align: center;
+    background: #d39491;
+        padding-top: 50px;
+    padding-bottom: 150px;
+        min-height: 500px;
+    height: 100vh;
+    padding-top: 10%
+}
+.partners h2
+{
+        margin-bottom: 30px;
+}
+.partners img
+{
+    width: 110px;
+    margin: 0 auto;
+}
+.partners .col-md-2
+{
+    padding: 20px;
+    text-align: center;
+}
+.partners .col-md-4
+{
+     padding: 20px;
+     text-align: center;
+    
+}
+.events {
+    text-align: center;
+    padding-bottom: 80px;
+   
+}
+.actualites 
+{
+        min-height: 700px;
+    height: auto;
+    padding-top: 5%;
+}
+.events h3
+{
+    margin-bottom: 60px;
+    margin-top: 80px
+}
+.events h4
+{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+.events .col-md-6
+{
+    text-align: left;
+    
+}
+.events .row img
+{
+       width: 40px;
+   
+}
+.events .row 
+{
+    margin-top: 8px;
+}
+.events p
+{
+    margin-top: 10px;
+}
+.single-event{
+     background: #D9D9D9;
+     padding:20px;
+     border: solid rgba(0, 0, 0, 0.41) 1px; 
+     min-height: 260px;
+      
+}
+.img-event
+{
+    position: absolute;
+    top: -49px;
+    right: 0;
+    left: 0;
+    margin: 0;
+    margin: auto;
+    width: 60px !important;
+
+}
+.contact
+{
+        height: auto;
+    min-height: 750px;
+    padding: 80px;
+    background: url('../img/slider1.png');
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.social img
+{
+        width: 35px;
+    margin-right: 5px;
+
+}
+/*.map div:nth-child(1)
+{
+    width: 100% !important;
+height: 300px !important;
+}*/
+
+.datepicker
+{
+       
+           width: 500px;
+           font-family: Raleway;
+}
+.datepicker th
+{
+    text-align: center;
+    font-size: 25px;
+}
+.datepicker tr
+{
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+.datepicker tr td
+{
+    text-align: center;
+}
+.datepicker .active
+{
+    background: #DCDCDC;
+    color: black;
+}
+.datepicker thead
+{
+    background: #DCDCDC;
+        border-bottom: solid;
+}
+.datepicker tbody
+{
+background: #666666;
+color: white;
+}
+.datepicker .table-condensed
+{
+    width: 100%
+}
+.datepicker .old
+{
+    color: #3e3939;
+}
+.datepicker .new
+{
+    color: #3e3939;
+}
+.contact{
+    position: relative;
+}
+.contact-form
+{
+    color: white;
+    padding-left: 60px;
+}
+.contact-shadow
+{
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    background: rgba(56, 56, 56, 0.48);
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+
+/*Create five layout*/
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media screen and (max-height: 600px)
+{
+  .carousel-mobile
+  {
+      display: none;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+.datepicker{
+    width: 200px;
+}
+}
+@media screen and (max-width: 790px) {
+    .navbar-header
+    {
+        width: 100%;
+    }
+    .carousel-caption h3
+    {
+        font-size: 20px;
+    }
+    .carousel-caption p
+    {
+        font-size: 12px;
+    }
+    .navbar-brand img
+    {
+            height: 50px !important;
+         width: 180px !important;
+    }
+    .head
+    {
+        position: initial;
+        margin-top: 20px ;
+        font-size: 18px !important;
+    }
+    .navbar
+    {
+        height: 60px;
+    }
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form
+        {
+            background: #e7e7e7;
+        }
+        .navbar-inverse .navbar-toggle
+        {
+            background: #bb5955;
+        }
+        .chiffre-cle
+        {
+            height: auto;
+            padding-bottom: 30px;   
+        }
+        .chiffre-cle .container
+        {
+            top: 120px;
+            padding: 0;
+        }
+        .datepicker
+        {
+            width: 100%;
+            left: auto !important;
+                background: none;
+    border: none;
+        }
+        .contact
+        {
+            padding: 20px 0;
+        }
+        .chiffre-desc   
+        {
+            margin-bottom: 30px;
+        }
+        .temoignage
+        {
+            position: initial;
+            margin-right: 0 !important;
+        }
+        .aboutus
+        {
+                height: auto;
+                padding-bottom: 40px;
+        }
+        .offre-tarifs
+        {
+            height: auto;
+            
+        }
+        .espace .col-md-3
+        {
+            margin-left: 0 !important;
+        }
+        .bug-mobile{
+                margin-top: 90px;
+        }
+        .partners 
+        {
+            height: auto;
+        }
+        .partners img
+        {
+            margin: 0 auto;
+        }
+        .partners img
+        {
+            margin-bottom: 20px !important;
+        }
+        .aboutus .col-md-6
+        {
+            padding: 0 !important;
+        }
+        .actualites
+        {
+            height: auto;
+        }
+        .actualites .fix-mobile
+        {
+            margin-top: 60px;
+        }
+        .actualites .col-xs-12
+        {
+            text-align: center;
+        }
+        .single-event div
+        {
+            text-align: center !important
+        }
+        .contact
+        {
+                height: auto;
+                padding: 0;
+        }
+        .contact-form
+        {
+            padding: 0;
+        }
+        .contact-form .col-md-7 ,.contact-form .col-md-5
+        {
+            padding: 0;
+        }
+        .events
+        {
+                margin-top: 300px;
+        }
+}

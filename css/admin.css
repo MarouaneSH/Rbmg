@@ -1,0 +1,53 @@
+.navigation{
+    height: 100vh;
+    position: fixed;
+    background: #212121;
+    padding-top: 10%;
+    color: white;
+}
+body
+{
+    background: #EDEDED;
+}
+*
+{
+    font-family: 'Baloo Bhaina', cursive;
+
+}
+.exit
+{
+    position: absolute;
+    color:white;
+    top: 10px;
+    right: 10px;
+    font-size: 20px !important;
+    cursor: pointer;
+}
+.navigation .fa
+{
+    margin-right: 10px
+}
+.navigation ul 
+{
+        font-size: 20px;
+    margin-bottom: 15px;
+    list-style: none;
+    
+    margin-left: -30px;
+}
+.navigation ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.card
+{
+    background: white;
+    padding: 20px;
+    border-left: solid 5px #0074A2;
+}
+.slider h6 span
+{
+ color: #B95552;
+}
